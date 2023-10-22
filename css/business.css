@@ -1,0 +1,32 @@
+.header-start {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.amharic-header__title {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    font-size: 46px;
+}
+
+.english-header__title {
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+.english-header__title-center {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: -30px;
+}
