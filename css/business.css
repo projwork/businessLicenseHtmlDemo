@@ -30,3 +30,41 @@
     justify-content: center;
     margin-top: -30px;
 }
+
+.header-Serial__text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+    align-items: end;
+}
+
+.header-Serial__paragraph {
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+.header-Serial__amharic
+{
+    margin-right: 10px;
+}
+
+.header-Serial__value {
+    margin-left: 10px;
+}
+
+.header-Serial__tin-amharic {
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.header-Serial__tin-value {
+    margin-left: 70px;
+}
+
+.header-hr {
+    font-weight: bold;
+    border: 1px solid;
+    margin-left: 100px;
+    margin-top: -15px;
+}
