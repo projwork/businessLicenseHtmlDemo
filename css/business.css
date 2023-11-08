@@ -1,70 +1,336 @@
 .header-start {
-    margin: 5px 10px;
-    display: flex;
-    justify-content: space-around;
+  margin: 5px 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .amharic-header__title {
-    display: flex;
-    justify-content: center;
-    margin-top: -5px;
-    font-size: 46px;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  font-size: 46px;
 }
 
 .english-header__title {
-    font-size: 46px;
-    font-weight: bold;
-    margin-top: -30px;
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: -30px;
 }
 
 .english-header__title-center {
-    display: flex;
-    font-size: 36px;
-    font-weight: bold;
-    justify-content: center;
-    margin-top: -30px;
+  display: flex;
+  font-size: 36px;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: -30px;
 }
 
 .header-Serial__text {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 30px;
-    align-items: end;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+  align-items: end;
 }
 
 .header-Serial__paragraph {
-    font-size: 20px;
-    margin-top: -25px;
+  font-size: 20px;
+  margin-top: -25px;
+  margin-right: 80px;
 }
 
-.header-Serial__amharic
-{
-    margin-right: 10px;
+.header-Serial__amharic {
+  margin-right: 40px;
 }
 
 .header-Serial__value {
-    margin-left: 10px;
+  margin-left: 15px;
 }
 
 .header-Serial__tin-amharic {
-    font-size: 12px;
-    margin-right: 20px;
-    margin-top: -10px;
+  font-size: 12px;
+  margin-right: 90px;
+  margin-top: -10px;
 }
 
 .header-Serial__tin-value {
-    margin-left: 70px;
+  margin-left: 90px;
 }
 
 .header-hr {
-    font-weight: bold;
-    border: 1px solid;
-    margin-left: 100px;
-    margin-top: -15px;
+  font-weight: bold;
+  border: 1px solid;
+  margin-left: 100px;
+  margin-top: -15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto 460px;
+  margin-left: 90px;
+}
+
+.photo-area {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.business-photo {
+  margin-top: 100px;
+}
+
+.right-area {
+  margin-left: 60px;
+}
+
+.right-area__amfirsttext {
+  margin-right: 30px;
+}
+
+.right-area-amfirstvalue {
+  margin: 0px 30px;
+}
+
+.amfirst__underscore {
+  border-bottom: 1px solid;
+}
+
+.amfirst__blankunderscore {
+  width: 190px;
+  border-bottom: 1px solid black;
+  margin-left: 10px;
+}
+
+.right-area__secondparagrph {
+  display: flex;
+}
+
+.right-area__amthridtext {
+  margin-right: 10px;
+}
+
+.right-area-amthridvalue {
+  margin: 0 10px;
+}
+
+.amfourth__blankunderscore {
+  width: 230px;
+  border-bottom: 1px solid black;
+  margin-left: 10px;
+}
+
+.right-area-amfifthvalue {
+  margin: 0 100px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 90px;
+}
+
+.license-detail_amheader {
+  text-align: center;
+}
+
+.license-detail__amfirstline {
+  font-size: 28px;
+}
+
+.license-detail__amsecondline {
+  font-size: 20px;
+  margin-top: -18px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 90px;
+}
+
+.grid3-leftside {
+  border-right: 1px dotted;
+}
+
+.grid3-amfirstvalue {
+  margin: 0 145px;
+}
+
+.grid3__amsecondtext {
+  margin-right: 50px;
+}
+
+.grid3-amsecondvalue {
+  margin: 0 200px;
+}
+
+.grid3-amfourthvalue {
+  margin: 0 155px;
+}
+
+.address__firsttext {
+  margin: 0 10px;
+}
+
+.region-value {
+  margin: 0 100px;
+}
+
+.sub-city {
+  margin: 0 55px;
+}
+
+.pl-10 {
+  margin-left: 10px;
+}
+
+.woreda-value {
+  margin: 0 150px;
+}
+
+.kebele {
+  margin: 0 50px;
+}
+
+.housenumber-value {
+  margin: 0 110px;
+}
+
+.phone-number {
+  margin: 0 20px;
+}
+
+.email {
+  margin: 0 80px;
+}
+
+.center {
+  text-align: center;
+}
+
+.mtn-10 {
+  margin-top: -10px;
+}
+
+.business-detail__hr {
+  border: 1px solid;
+}
+
+.pl-20 {
+  margin-left: 20px;
+}
+
+.pr-10 {
+  margin-right: 10px;
+}
+
+.capital-value {
+  margin: 0 178px;
+}
+
+.issue-date {
+  margin: 0 10px;
+}
+
+.location {
+  margin: 0 70px;
+}
+
+.owner-eng {
+  margin: 0 93px;
+}
+
+.nationality-eng {
+  margin: 0 200px;
+}
+
+.trade-name {
+  width: 80%;
+  border: 1px solid;
+}
+
+.pl-110 {
+  margin-left: 110px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.manager-eng {
+  margin: 0 91px;
+}
+
+.regionen-value {
+  margin: 0 30px;
+}
+
+.subcity-en {
+  margin: 0 102px;
+}
+
+.woreda-en-value {
+  margin: 0 80px;
+}
+
+.kebele-en {
+  margin: 0 105px;
+}
+
+.housenumber-en-value {
+  margin: 0 60px;
+}
+
+.phone-number-en {
+  margin: 0 82px;
+}
+
+.fax-value {
+  margin: 0 60px;
+}
+
+.email-en {
+  margin: 0 112px;
+}
+
+.pl-60 {
+  margin-left: 60px;
+}
+
+.location-en {
+  margin: 0 121px;
+}
+
+.date-en {
+  margin: 0 40px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.pl-90 {
+  margin-left: 90px;
+}
+
+.official-name {
+  width: 250px;
+  border: 1px solid;
+}
+
+.pl-200 {
+  margin-left: 200px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
